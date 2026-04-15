@@ -46,7 +46,7 @@ st.markdown("""
 # ===================== DATA =====================
 @st.cache_data
 def load_data():
-    df = pd.read_csv('co2 Emissions.csv', low_memory=False)
+    df = pd.read_csv('co2_emissions.csv', low_memory=False)
     df.columns = df.columns.str.strip()  # FIXED
 
     fuel_map = {"Z":"Premium Gasoline","X":"Regular Gasoline","D":"Diesel","E":"Ethanol(E85)","N":"Natural Gas"}
