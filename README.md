@@ -57,7 +57,7 @@ This Streamlit application provides a CO2 Emission Dashboard and a machine learn
 
 1.  Run the Streamlit application:
     ```bash
-    streamlit run app\(2\).py
+    streamlit run app.py
     ```
 2.  Open the application in your web browser. The app will usually open automatically, but if not, it will provide a local URL in the terminal that you can use.
 3.  Navigate the dashboard to explore CO2 emission visualizations or use the prediction tool by selecting "Model Prediction" from the sidebar.
